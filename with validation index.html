@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="container-fluid pr-0 pl-0 ">
+        <section class="registration">
+            <section class="row ml-0 mr-0 mt-5">
+                <section class="col-8 offset-2">
+                    <section class="card p-3">
+                        <section class="card-header bg-dark p-4 ">
+                            <h2 class="card-title text-white text-center">Registration Form</h2>
+                        </section>
+                        <section class="card-body">
+                            <section class="row">
+                                <section class="col-12">
+                                    <form  method="post" id="registration">
+                                        <section class="alert alert-success" id="registration-message">
+                                                <button type="button" class="close" data-dismiss="alert">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <strong class="text-capitalize " id="show-message">
+                                                </strong>                                                     </span>
+                                            </section>
+                                        <section class="row">
+                                            <section class="col-12 col-md-6">
+                                                <section class="form-group">
+                                                    <label for="firstName" >Firstname</label>
+                                                    <input type="text" name="firstName" placeholder="FirstName" class="form-control" id="firstName">
+                                                </section>
+                                            </section>
+                                            <section class="col-12 col-md-6">
+                                                <section class="form-group">
+                                                    <label for="lastName" >LastName</label>
+                                                    <input type="text" name="lastName" placeholder="LastName" class="form-control" id="lastName">
+                                                </section>
+                                            </section>
+                                        </section>
+                                        <section class="row mt-2">
+                                            <section class="col-12 col-md-6">
+                                                <label >Gender</label>
+                                                <section class="row">
+                                                       <section class="col-md-4">
+                                                           <section class="form-check-inline">
+                                                               <label class="form-check-label">
+                                                                   <input type="radio" class="gender form-check-input" name="gender" value="male" >Male
+                                                               </label>
+                                                           </section>
+                                                       </section>
+                                                       <section class="col-md-4 ">
+                                                           <section class="form-check-inline">
+                                                               <label class="form-check-label">
+                                                                   <input type="radio" class="gender form-check-input" name="gender"  value="female">Female
+                                                               </label>
+                                                           </section>
+                                                       </section>
+                                                   </section>
+                                            </section>
+                                            <section class="col-12 col-md-6">
+                                                <label for="dob">Date Of Birth</label>
+                                                <input class="form-control" type="date" name="dob" id="dob">
+                                            </section>
+                                        </section>
+                                        <section class="row mt-2">
+                                            <section class="col-12 col-md-6">
+                                                <section class="form-group">
+                                                    <label  class="col-form-label">Email</label>
+                                                    <input type="email" name="email" class="form-control" placeholder="Email" id="email">
+                                                </section>
+                                            </section>
+                                            <section class="col-12 col-md-6">
+                                                <section class="form-group">
+                                                    <label  class="col-form-label">Phone</label>
+                                                    <input type="number" name="phone"  class="form-control" placeholder="Phone" id="phone">
+                                                </section>
+                                            </section>
+                                        </section>
+                                        <section class="row mt-2">
+                                            <section class="col-12 col-md-6">
+                                                <section class="form-group">
+                                                    <label  class="col-form-label">Country</label>
+                                                    <select class="form-control" name="country"  id="country">
+                                                        <option value="afghanistan">Afghanistan</option>
+                                                        <option value="pakistan">Pakistan</option>
+                                                        <option value="iran">Iran</option>
+                                                    </select>
+                                                </section>
+                                            </section>
+                                            <section class="col-12 col-md-6">
+                                                <section class="form-group">
+                                                    <label  class="col-form-label">Address</label>
+                                                    <input type="text" name="address" class="form-control" placeholder="Address" id="address">
+                                                </section>
+                                            </section>
+                                        </section>
+                                        <section class="form-group mt-2">
+                                            <button id="register-btn" type="submit" class="btn btn-dark btn-block" >Confirm</button>
+                                        </section>
+                                    </form>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/validation.js"></script>
+</body>
+</html>
+
